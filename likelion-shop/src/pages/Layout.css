@@ -1,0 +1,28 @@
+.col{
+    color: aliceblue;
+    margin-left: 100px;
+}
+
+body {
+    background: linear-gradient(45deg, #e85dff, #8a2be2, #4b0082);
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite alternate;
+    background-blend-mode: screen;
+    background-position: center;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px #000;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }

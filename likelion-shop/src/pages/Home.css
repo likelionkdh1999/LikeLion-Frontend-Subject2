@@ -1,0 +1,10 @@
+.img{
+    padding-top: 100px;
+    max-width: 680px;
+    max-height: 554px;
+}
+
+.dis{
+    display: grid;
+    justify-content: center;
+}
