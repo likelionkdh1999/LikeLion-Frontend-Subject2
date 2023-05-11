@@ -1,0 +1,15 @@
+.responsive {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+
+.top {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    justify-content: center;
+}
+
+.center{
+    justify-content: center;
+}

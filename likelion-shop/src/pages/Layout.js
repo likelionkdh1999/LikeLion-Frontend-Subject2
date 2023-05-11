@@ -7,7 +7,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Layout = () => {
   return (
     <>
-      <Navbar bg="dark"><Nav.Link className ="col" to="/">LikeLion Shop</Nav.Link>
+      <Navbar bg="dark">
+        <Link className ="col" to="/">LikeLion Shop</Link>
+        <Link className ="col" to="/albums">Albums</Link>
       </Navbar>
       <Outlet />
       <Footer />
