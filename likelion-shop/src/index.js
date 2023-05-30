@@ -6,6 +6,7 @@ import Albums from "./pages/Albums";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
 import Footer from "./pages/Footer";
+import Detail from './pages/Detail';
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />
           <Route path="footer" element={<Footer />} />
+          <Route path='/detail/:item_id' element = {<Detail/>} />
         </Route>
       </Routes>
     </BrowserRouter>
